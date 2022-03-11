@@ -1,7 +1,22 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net5.0;net6.0</TargetFrameworks>
+    <Description>A small, basic library for creating and getting diacritical letters in WPF</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageTags>diacritics;diacritical-marks;wpf</PackageTags>
+    <PackageProjectUrl>https://github.com/giosali/DiacriticalMarks</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/giosali/DiacriticalMarks.git</RepositoryUrl>
+    <PackageIcon>DiacriticalMarks-icon.png</PackageIcon>
+    <Authors>Giovanni Salinas</Authors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\Affinity\DiacriticalMarks\DiacriticalMarks-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
