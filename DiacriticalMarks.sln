@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiacriticalMarks", "DiacriticalMarks\DiacriticalMarks.csproj", "{7E85AE61-FEA6-411C-BB1B-D207F875E293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiacriticalMarks.Tests", "DiacriticalMarks.Tests\DiacriticalMarks.Tests.csproj", "{FA603BCB-AF47-4D2F-A252-2F4FB6A6A6C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E85AE61-FEA6-411C-BB1B-D207F875E293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E85AE61-FEA6-411C-BB1B-D207F875E293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E85AE61-FEA6-411C-BB1B-D207F875E293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E85AE61-FEA6-411C-BB1B-D207F875E293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA603BCB-AF47-4D2F-A252-2F4FB6A6A6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA603BCB-AF47-4D2F-A252-2F4FB6A6A6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA603BCB-AF47-4D2F-A252-2F4FB6A6A6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA603BCB-AF47-4D2F-A252-2F4FB6A6A6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0561938C-ED7D-4C57-8163-13706AE60774}
+	EndGlobalSection
+EndGlobal
