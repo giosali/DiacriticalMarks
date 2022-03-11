@@ -13,7 +13,7 @@
         <img src="https://img.shields.io/nuget/v/DiacriticalMarks?logo=nuget" alt="NuGet Version">
     </a>
     <a href="https://github.com/giosali/DiacriticalMarks/blob/main/DiacriticalMarks/DiacriticalMarks.csproj">
-        <img src="https://img.shields.io/badge/dynamic/xml?color=%23512bd4&label=target&logo=.net&query=%2F%2FTargetFramework[1]&url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiosali%2FDiacriticalMarks%2Fmain%2FDiacriticalMarks%2FDiacriticalMarks.csproj" alt="Target Framework">
+        <img src="https://img.shields.io/badge/dynamic/xml?color=%23512bd4&label=target&logo=.net&query=%2F%2FTargetFrameworks[1]&url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiosali%2FDiacriticalMarks%2Fmain%2FDiacriticalMarks%2FDiacriticalMarks.csproj" alt="Target Framework">
     </a>
 </p>
 
