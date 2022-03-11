@@ -133,7 +133,11 @@ public static void Main()
 ```
 
 ```
-📝 NOTE: The order of `CombiningDiacriticalMark`s matters! For example, if the order of the `marks` variable was instead: { CombiningDiacriticalMark.CombiningDotBelow, CombiningDiacriticalMark.CombiningBreve }, you may end up with a string consisting of a 'Ạ' that has a breve ('˘') accent attached to it, which means the string will have a length of 2 instead of 1.
+📝 NOTE: The order of `CombiningDiacriticalMark`s matters! For example, if the order of the `marks` variable was instead:
+
+    { CombiningDiacriticalMark.CombiningDotBelow, CombiningDiacriticalMark.CombiningBreve }
+
+Then you may end up with a string consisting of a 'Ạ' that has a breve ('˘') accent attached to it, which means the string will have a length of 2 instead of 1.
 
 In other words:
 
